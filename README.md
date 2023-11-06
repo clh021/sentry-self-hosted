@@ -18,7 +18,7 @@
   此脚本将处理您入门所需的所有事情，包括环境检查，镜像构建，基础配置
   运行 ./install.sh 时，需要手动选择是否加入改进计划
   快要运行结束时会询问是否要设置账号
-  > 构建过程如果遇到问题，可以参考 https://github.com/clh021/self-hosted/tree/23.10.1.localbuild 修改记录。如果可能的话，您应该参考https://develop.sentry.dev/self-hosted/#installing-behind-a-proxy 章节的内容
+  > 构建过程如果遇到问题，可以参考 [这里的修改记录](https://github.com/clh021/self-hosted/tree/23.10.1.localbuild)。如果可能的话，您应该参考[这个章节的内容](https://develop.sentry.dev/self-hosted/#installing-behind-a-proxy)
 
 - 在项目目录运行 docker compose up -d 启动 Sentry
   默认情况下，Sentry 绑定到端口 9000 。
