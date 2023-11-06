@@ -87,3 +87,5 @@ You're all done! Run the following command to get Sentry running:
 ```
 
 ## 使用
+
+[如何使用](./HOW.md)
