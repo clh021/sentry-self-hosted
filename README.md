@@ -12,24 +12,24 @@
 ### 步骤
 1. 初始化项目环境
 
-  `get_latest_release.sh` 下载最新版本的自托管存储库
+    `get_latest_release.sh` 下载最新版本的自托管存储库
 
 2. 运行项目中的 ./install.sh
 
-  `./self-hosted/install.sh`
+    `./self-hosted/install.sh`
 
-  此脚本将处理您入门所需的所有事情，包括环境检查，镜像构建，基础配置
-  运行 ./install.sh 时，需要手动选择是否加入改进计划
-  快要运行结束时会询问是否要设置账号
+    此脚本将处理您入门所需的所有事情，包括环境检查，镜像构建，基础配置
+    运行 ./install.sh 时，需要手动选择是否加入改进计划
+    快要运行结束时会询问是否要设置账号
 
   > 构建过程如果遇到问题，可以参考 [这里的修改记录](https://github.com/clh021/self-hosted/tree/23.10.1.localbuild)。如果可能的话，您应该参考[这个章节的内容](https://develop.sentry.dev/self-hosted/#installing-behind-a-proxy)
 
 3. 在项目目录运行 `docker compose up -d` 启动 `Sentry`
 
-  默认情况下，Sentry 绑定到端口 9000 。
+    默认情况下，Sentry 绑定到端口 9000 。
 
 
-您应该能够访问 http://127.0.0.1:9000 的登录页面。
+搭建完成。访问 http://127.0.0.1:9000 即可登录。
 
 
 
