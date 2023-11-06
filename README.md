@@ -3,7 +3,6 @@
 ## 本地搭建
 
 ### 环境依赖
-- Requirements
 - Docker 19.03.6+
 - Compose 2.0.1+
 - 4 CPU Cores
