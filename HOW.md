@@ -16,15 +16,17 @@
 
     ![vue.sdk](./img/vue.sdk.png)
 
-    尝试创建出一个 [golang 项目来测试](./sdk.test/go/)
+### 尝试创建出一个 [golang 项目来测试](./sdk.test/go/)
 
-    ![go.issue.test](./img/go.issue.test.png)
-    ![go.issue.test.detail](./img/go.issue.test.detail.png)
+  ![go.issue.test](./img/go.issue.test.png)
+  ![go.issue.test.detail](./img/go.issue.test.detail.png)
 
-    尝试创建出一个 [vue3 项目来测试](./sdk.test/vue3/)
+### 尝试创建出一个 [vue3 项目来测试](./sdk.test/vue3/)
 
-    ![vue3.issue.test](./img/go.issue.test.png)
-    ![vue3.issue.test.chrome119](./img/vue3.issue.test.chrome119.png)
-    ![vue3.issue.test.firefox119](./img/vue3.issue.test.firefox119.png)
+  ![vue3.issue.test](./img/vue3.issue.test.png)
 
-    奇怪，我的 entry 设置了允许跨域的域名。但是 `chrome v119.0.0` 仍然报告跨域问题(表格中看到的 chrome错误报告记录是我调试时使用curl测试发送成功的报告)，而 `firefox v119.0` 却可以正常发送错误报告到 entry。这可能是 `chrome v119.0.0` 的BUG
+  奇怪，我的 entry 设置了允许跨域的域名。但是 `chrome v119.0.0` 仍然报告跨域问题(表格中看到的 chrome错误报告记录是我调试时使用curl测试发送成功的报告)，而 `firefox v119.0` 却可以正常发送错误报告到 entry。这可能是 `chrome v119.0.0` 的BUG
+
+  ![vue3.issue.test.chrome119](./img/vue3.issue.test.chrome119.png)
+  ![vue3.issue.test.firefox119](./img/vue3.issue.test.firefox119.png)
+
